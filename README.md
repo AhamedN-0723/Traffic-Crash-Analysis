@@ -46,6 +46,32 @@ Traffic-Crash-Analytics/
 └── README.md
 ```
 
+## Database Setup
+
+Before running the project, create a SQLite3 database file named:
+
+```bash
+Crash_Project.db
+```
+
+Run the following Python code to create the database and import the CSV dataset into SQLite3:
+
+```python
+import pandas as pd
+import sqlite3
+
+# Load dataset
+df = pd.read_csv("data/Traffic_CrashesData.csv")
+
+# Create SQLite database
+conn = sqlite3.connect("data/Crash_Project.db")
+
+# Store data into database table
+df.to_sql("traffic_crashes", conn, if_exists="replace", index=False)
+
+print("Database created successfully.")
+```
+
 ## Conclusion
 
 This project analyzes traffic crash data using Python, Pandas, SQLite3, Matplotlib, and Streamlit. It helps identify accident trends and severity patterns through visualizations and an interactive dashboard. The project demonstrates practical skills in data analysis and dashboard development using Python.
