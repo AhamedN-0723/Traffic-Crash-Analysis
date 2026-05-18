@@ -29,6 +29,7 @@ This project analyzes traffic crash data using Python, SQL, Pandas, Matplotlib, 
 ## Project Structure
 
 ```bash
+
 Traffic-Crash-Analytics/
 │
 ├── data/
@@ -43,3 +44,9 @@ Traffic-Crash-Analytics/
 │
 ├── requirements.txt
 └── README.md
+```
+
+## Conclusion
+
+This project analyzes traffic crash data using Python, Pandas, SQLite3, Matplotlib, and Streamlit. It helps identify accident trends and severity patterns through visualizations and an interactive dashboard. The project demonstrates practical skills in data analysis and dashboard development using Python.
+
