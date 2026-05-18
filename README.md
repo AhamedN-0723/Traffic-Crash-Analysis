@@ -9,6 +9,7 @@ This project analyzes traffic crash data using Python, SQL, Pandas, Matplotlib, 
 
 - Python
 - Pandas
+- SQLite3
 - Matplotlib
 - Streamlit
 - PyCharm
@@ -17,9 +18,11 @@ This project analyzes traffic crash data using Python, SQL, Pandas, Matplotlib, 
 
 ## Features
 
-- Data querying with pandas in python
+- Traffic crash data analysis using Python
+- Data querying using Pandas and SQLite3
 - Data visualization using Matplotlib
-- Interactive dashboard using Streamlit
+- Interactive dashboard development using Streamlit
+- Accident trend and severity analysis
 
 ---
 
