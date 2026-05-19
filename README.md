@@ -70,7 +70,6 @@ conn = sqlite3.connect("data/Crash_Project.db")
 # Store data into database table
 df.to_sql("traffic_crashes", conn, if_exists="replace", index=False)
 
-print("Database created successfully.")
 ```
 
 ## Conclusion
