@@ -33,9 +33,8 @@ This project analyzes traffic crash data using Python, SQL, Pandas, Matplotlib, 
 Traffic-Crash-Analytics/
 │
 ├── data/
-│   └── Traffic Crash Analytics & Safety Intelligence Platform.pdf
+│   └── 'provided as a link to download'
 │   
-│
 ├── app/
 │   └── app.py
 │
