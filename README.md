@@ -48,6 +48,8 @@ Traffic-Crash-Analytics/
 
 ## Database Setup
 
+Link to Download the data- https://drive.google.com/file/d/1jAFsxF8ri--wYC1A-8k_Otdlf8xfcODN/view?usp=sharing
+
 Before running the project, create a SQLite3 database file named:
 
 ```bash
